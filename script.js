@@ -14,7 +14,7 @@ console.log(greet("alice"))
 console.log(greet("bob"))
 function iseven(a){
     a = Number(a);
-    if((a%2)==0){
+    if(a%2 == 0){
         document.getElementById("ans5").innerText = "true";
     }
     else{
