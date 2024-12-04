@@ -1,0 +1,14 @@
+#main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+.que{
+    border: 2px solid red;
+    height: 280px;
+    width: 250px;
+}
+.que h3{
+    text-align: center;
+}

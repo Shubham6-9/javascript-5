@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="que">
+            <h3>Ouestion 1</h3>
+            <p>Define a function named addNumbers that takes two parameters (num1 and num2) and returns the sum of the two numbers ?</p>
+            <input type="number" id="a1" value="5">
+            <input type="number" id="b1" value="7">
+            <h4 id="ans1"></h4>
+            <button onclick="addnumbers((document.getElementById('a1').value), (document.getElementById('b1').value))">Check ans</button>
+        </div>
+        <div class="que">
+            <h3>Ouestion 2</h3>
+            <p>Call the addNumbers function with arguments 5 and 7 and store the result in a variable named result ?</p>
+            <h4 id="ans2"></h4>
+            <button onclick="addNumbers(5, 7)">Check ans</button>
+        </div>
+        <div class="que">
+            <h3>Ouestion 3</h3>
+            <p>Create a function named greet that takes a name parameter and returns a greeting message including the name ?</p>
+        </div>
+        <div class="que">
+            <h3>Ouestion 4</h3>
+            <p>Call the greet function with your name as an argument and log the result to the console ?</p>
+        </div>  
+        <div class="que">
+            <h3>Question 5</h3>
+            <p>Define a function named isEven that takes a single parameter (num) and returns true if the number is even and false otherwise ?</p>
+            <input type="number" id="a5" value="6">
+            <h4 id="ans5"></h4>
+            <button onclick="iseven(document.getElementById('a5'))">Check</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
